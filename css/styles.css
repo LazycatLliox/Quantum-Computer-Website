@@ -72,7 +72,7 @@ nav{
     transform: translate(-50%, 25%) rotate(-45deg);
 }
 .neon-text {
-    font-size: 48px;
+    font-size: 25px;
     color: #fff;
     text-shadow:
         0 0 5px #0ff,
@@ -83,37 +83,30 @@ nav{
     padding: 20px;
     text-align: center;
 }
-.change-shape {
-    width: 200px;
-    height: 200px;
-    background-color: #0ff;
-    -webkit-animation: squareToCircle 2s 1s infinite alternate;
-  }
-  
-  @-webkit-keyframes squareToCircle {
-      0% {
-        border-radius: 0 0 0 0;
-        background: #0ff;
-        transform: rotate(0deg);
-      }
-      25% {
-        border-radius: 50% 0 0 0;
-        background: #0fc;
-        transform: rotate(45deg);
-      }
-      50% {
-        border-radius: 50% 50% 0 0;
-        background: #0fa;
-        transform: rotate(90deg);
-      }
-      75% {
-        border-radius: 50% 50% 50% 0;
-        background: #0f5;
-        transform: rotate(135deg);
-      }
-      100% {
-        border-radius: 50% 50% 50% 50%;
-        background: #0fa;
-        transform: rotate(180deg);
-      }
-  }
+#hero{
+    background-image: url(/images/von-wellen-und-teilchen-1704618539Fkq.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: bottom;
+    min-height: 500px;
+}
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.headings{
+    color: #fff;
+    font-size: 30px;
+    padding: 10px;
+    text-align: center;
+}
+.info{
+    color: #fff;
+    font-size: 18px;
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
